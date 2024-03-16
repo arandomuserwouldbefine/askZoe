@@ -8,10 +8,7 @@ function App() {
   return (
     <>
 
-      <motion.div
-        animate={{ y: 10, opacity: 1, transition: { duration: 0.4 } }}
-        initial={{ y: -30, opacity: 0, transition: { duration: 0 } }}
-      >
+
 
         <div className='mainSection'>
           <img src='/Logo.png' className='logo' />
@@ -28,7 +25,6 @@ function App() {
             <img src='/Group.png' className='groupedPhones' ></img>
           </div>
         </div>
-      </motion.div>
 
     </>
   )
