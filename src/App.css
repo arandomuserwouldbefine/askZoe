@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+@font-face {
+    font-family: 'NantesLightItalic';
+    src: url('/fonts/Nantes-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NantesLight';
+    src: url('/fonts/Nantes-Light.ttf') format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Lota Grotesque';
+    src: url('/fonts/Lota_Grotesque_Alt 3_Thin.otf') format('opentype');
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+.freeText {
+    position: relative;
+    top: 20px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2D3246;
+}
+
+.yellowFree {
+    font-weight: 700;
+    background-color: #FFD100;
+    padding: 4px 8px;
+    border-radius: 9px;
+}
+
+.mainTitle {
+    position: relative;
+    top: 39px;
+    font-family: 'NantesLight', sans-serif;
+    font-size: 62px;
+    color: #2D3246;
+}
+
+.mainItalic {
+    font-family: 'NantesLightItalic', sans-serif;
+
+}
+
+.subTitle{
+    font-family: "Lota Grotesque",sans-serif;
+    color: #4B526E;
+    position: relative;
+    top: 45px;
+    font-size: 18px;
+    padding: 0px 280px;
+}
+
+.downloadOptions{
+    position: relative;
+    top: 70px;
+    height: 40px;
+}
+
+.groupedPhones{
+    position: relative;
+    top: 100px;
+}
