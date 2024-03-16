@@ -22,9 +22,11 @@
     box-sizing: border-box;
 
 }
-
-.mainSection {
+html{
     overflow-x: hidden;
+}
+.mainSection {
+    /* overflow-x: hidden; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -88,7 +90,13 @@
     top: 100px;
     width: 80%;
 }
+.phoneGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    overflow-x: hidden;
+}
 
 @media screen and (max-width: 379px) {
 
