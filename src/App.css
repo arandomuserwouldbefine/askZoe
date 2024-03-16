@@ -38,11 +38,9 @@ html{
 .logo {
     width: 80px;
     height: 80px;
-    position: relative;
 }
 
 .freeText {
-    position: relative;
     top: 20px;
     font-family: "Sofia Sans", sans-serif;
     font-weight: 300;
@@ -58,7 +56,6 @@ html{
 }
 
 .mainTitle {
-    position: relative;
     margin-top: 39px;
     font-family: 'NantesLight', sans-serif;
     font-size: 62px;
@@ -73,14 +70,12 @@ html{
 .subTitle{
     font-family: "Lota Grotesque",sans-serif;
     color: #4B526E;
-    position: relative;
     margin-top: 25px;
     font-size: 18px;
     padding: 0px 375px;
 }
 
 .downloadOptions{
-    position: relative;
     margin-top: 30px;
     height: 40px;
 }
@@ -110,12 +105,10 @@ html{
     .logo {
         width: 80px;
         height: 80px;
-        position: relative;
     }
     
     .freeText {
-        position: relative;
-        top: 20px;
+        margin-top: 20px;
         font-family: "Sofia Sans", sans-serif;
         font-weight: 300;
         font-size: 20px;
@@ -146,8 +139,7 @@ html{
         padding: 0px 10px;
       }
     .downloadOptions{
-        position: relative;
-        top: 70px;
+
         height: 40px;
     }
     
@@ -170,12 +162,10 @@ html{
     .logo {
         width: 80px;
         height: 80px;
-        position: relative;
     }
     
     .freeText {
-        position: relative;
-        top: 20px;
+        margin-top: 20px;
         font-family: "Sofia Sans", sans-serif;
         font-weight: 300;
         font-size: 20px;
@@ -206,8 +196,7 @@ html{
         padding: 0px 10px;
       }
     .downloadOptions{
-        position: relative;
-        top: 70px;
+
         height: 40px;
     }
     
@@ -231,12 +220,10 @@ html{
     .logo {
         width: 80px;
         height: 80px;
-        position: relative;
     }
     
     .freeText {
-        position: relative;
-        top: 20px;
+        margin-top: 20px;
         font-family: "Sofia Sans", sans-serif;
         font-weight: 300;
         font-size: 20px;
@@ -267,8 +254,6 @@ html{
         padding: 0px 20px;
       }
     .downloadOptions{
-        position: relative;
-        top: 70px;
         height: 40px;
     }
     
@@ -291,12 +276,10 @@ html{
     .logo {
         width: 80px;
         height: 80px;
-        position: relative;
     }
     
     .freeText {
-        position: relative;
-        top: 20px;
+        margin-top: 20px;
         font-family: "Sofia Sans", sans-serif;
         font-weight: 300;
         font-size: 20px;
@@ -327,8 +310,6 @@ html{
         padding: 0px 40px;
       }
     .downloadOptions{
-        position: relative;
-        top: 90px;
         height: 40px;
     }
     
