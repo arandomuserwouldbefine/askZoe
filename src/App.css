@@ -22,10 +22,10 @@
     box-sizing: border-box;
 
 }
-html{
-    overflow-x: hidden;
-}
+
 .mainSection {
+    overflow-x: hidden;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -87,7 +87,6 @@ html{
     position: relative;
     top: 100px;
     width: 80%;
-    overflow: hidden;
 }
 
 
