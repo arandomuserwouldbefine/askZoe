@@ -27,7 +27,7 @@ html{
 }
 .mainSection {
     /* overflow-x: hidden; */
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -59,7 +59,7 @@ html{
 
 .mainTitle {
     position: relative;
-    top: 39px;
+    margin-top: 39px;
     font-family: 'NantesLight', sans-serif;
     font-size: 62px;
     color: #2D3246;
@@ -74,27 +74,26 @@ html{
     font-family: "Lota Grotesque",sans-serif;
     color: #4B526E;
     position: relative;
-    top: 55px;
+    margin-top: 25px;
     font-size: 18px;
     padding: 0px 375px;
 }
 
 .downloadOptions{
     position: relative;
-    top: 80px;
+    margin-top: 30px;
     height: 40px;
 }
 
 .groupedPhones{
-    position: relative;
-    top: 100px;
-    width: 80%;
+    margin-top: 10px;
+    width: 100%;
 }
 .phoneGroup{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-top: 60px;
     overflow: hidden;
 }
 
@@ -153,9 +152,7 @@ html{
     }
     
     .groupedPhones{
-        position: relative;
         top: 100px;
-        right: 15px;
         width: 180%;
     }  
 }
@@ -215,9 +212,7 @@ html{
     }
     
     .groupedPhones{
-        position: relative;
         top: 100px;
-        right: 20px;
         width: 150%;
     }  
 }
@@ -278,9 +273,7 @@ html{
     }
     
     .groupedPhones{
-        position: relative;
         top: 100px;
-        right: 25px;
         width: 130%;
     }  
 }
@@ -340,9 +333,6 @@ html{
     }
     
     .groupedPhones{
-        position: relative;
-        top: 130px;
-        right: 25px;
         width: 130%;
     }  
 }
