@@ -126,11 +126,9 @@ html{
     }
     
     .mainItalic {
-        top: 20px;
         display: block;
     }
     .subTitle {
-        top: 55px;
         font-size: 14px;
         line-height: 20px;
         width: 100%;
@@ -183,11 +181,9 @@ html{
     }
     
     .mainItalic {
-        top: 20px;
         display: block;
     }
     .subTitle {
-        top: 55px;
         font-size: 14px;
         line-height: 20px;
         width: 100%;
@@ -199,7 +195,6 @@ html{
     }
     
     .groupedPhones{
-        top: 100px;
         width: 150%;
     }  
 }
@@ -241,11 +236,9 @@ html{
     }
     
     .mainItalic {
-        top: 20px;
         display: block;
     }
     .subTitle {
-        top: 55px;
         font-size: 14px;
         line-height: 20px;
         width: 90%;
@@ -256,7 +249,6 @@ html{
     }
     
     .groupedPhones{
-        top: 100px;
         width: 130%;
     }  
 }
@@ -297,11 +289,9 @@ html{
     }
     
     .mainItalic {
-        top: 20px;
         display: block;
     }
     .subTitle {
-        top: 65px;
         font-size: 18px;
         line-height: 20px;
         width: 90%;
@@ -313,5 +303,164 @@ html{
     
     .groupedPhones{
         width: 130%;
+    }  
+}
+
+
+
+@media (min-width: 801px) and (max-width: 1000px){
+    
+    .mainSection {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .freeText {
+        margin-top: 20px;
+        font-family: "Sofia Sans", sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: #2D3246;
+    }
+    
+    .yellowFree {
+        font-weight: 700;
+        background-color: #FFD100;
+        padding: 4px 8px;
+        border-radius: 9px;
+    }
+    .mainTitle {
+        padding: 0px 30px;
+        font-size: 65px;
+        line-height: 1.2; /* Adjust line height as needed */
+    }
+    
+    .mainItalic {
+        display: block;
+    }
+    .subTitle {
+        font-size: 18px;
+        line-height: 20px;
+        width: 90%;
+        padding: 0px 70px;
+      }
+    .downloadOptions{
+        height: 50px;
+    }
+    
+    .groupedPhones{
+        width: 100%;
+    }  
+}
+
+
+
+
+@media (min-width: 1001px) and (max-width: 1200px){
+    
+    .mainSection {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .freeText {
+        margin-top: 20px;
+        font-family: "Sofia Sans", sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: #2D3246;
+    }
+    
+    .yellowFree {
+        font-weight: 700;
+        background-color: #FFD100;
+        padding: 4px 8px;
+        border-radius: 9px;
+    }
+    .mainTitle {
+        padding: 0;
+        font-size: 58px;
+    }
+    
+    .subTitle {
+        font-size: 18px;
+        line-height: 20px;
+        width: 85%;
+        padding: 0px 70px;
+      }
+    .downloadOptions{
+        height: 55px;
+    }
+    
+    .groupedPhones{
+        width: 90%;
+    }  
+}
+
+
+
+
+@media (min-width: 1201px) and (max-width: 1400px){
+    
+    .mainSection {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .freeText {
+        margin-top: 20px;
+        font-family: "Sofia Sans", sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: #2D3246;
+    }
+    
+    .yellowFree {
+        font-weight: 700;
+        background-color: #FFD100;
+        padding: 4px 8px;
+        border-radius: 9px;
+    }
+    .mainTitle {
+        padding: 0;
+        font-size: 58px;
+    }
+    
+    .subTitle {
+        font-size: 18px;
+        line-height: 20px;
+        width: 85%;
+        padding: 0px 70px;
+      }
+    .downloadOptions{
+        height: 55px;
+    }
+    
+    .groupedPhones{
+        width: 90%;
     }  
 }
