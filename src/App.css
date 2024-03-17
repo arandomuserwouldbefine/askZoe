@@ -1,430 +1,488 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
 
 @font-face {
-    font-family: 'NantesLightItalic';
-    src: url('/fonts/Nantes-LightItalic.ttf') format('truetype');
+  font-family: "NantesLightItalic";
+  src: url("/fonts/Nantes-LightItalic.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'NantesLight';
-    src: url('/fonts/Nantes-Light.ttf') format('truetype');
-    font-weight: 100;
+  font-family: "NantesLight";
+  src: url("/fonts/Nantes-Light.ttf") format("truetype");
+  font-weight: 100;
 }
 
 @font-face {
-    font-family: 'Lota Grotesque';
-    src: url('/fonts/Lota_Grotesque_Alt_2_Thin.otf') format('opentype');
-  }
+  font-family: "Lota Grotesque";
+  src: url("/fonts/Lota_Grotesque_Alt_2_Thin.otf") format("opentype");
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    overflow-x: hidden;
+html {
+  overflow-x: hidden;
 }
-
 .mainSection {
-    z-index: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+.freeText {
+  margin-top: 20px;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #2d3246;
+}
+
+.yellowFree {
+  font-weight: 700;
+  background-color: #ffd100;
+  padding: 4px 8px;
+  border-radius: 9px;
+}
+
+.mainTitle {
+  margin-top: 25px;
+  font-family: "NantesLight", sans-serif;
+  font-size: 62px;
+  display: flex;
+  color: #2d3246;
+}
+
+.mainItalic {
+  font-family: "NantesLightItalic", sans-serif;
+}
+
+.subTitle {
+  font-family: "Lota Grotesque", sans-serif;
+  color: #4b526e;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 0px 375px;
+}
+
+.downloadOptions {
+  margin-top: 25px;
+  height: 45px;
+}
+
+.groupedPhones {
+  margin-top: 10px;
+  width: 100%;
+}
+.phoneGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 379px) {
+  .mainSection {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.logo {
+  .logo {
     width: 80px;
     height: 80px;
-}
-.freeText {
+  }
+
+  .freeText {
     margin-top: 20px;
     font-family: "Sofia Sans", sans-serif;
     font-weight: 300;
     font-size: 20px;
-    color: #2D3246;
-}
+    color: #2d3246;
+  }
 
-.yellowFree {
+  .yellowFree {
     font-weight: 700;
-    background-color: #FFD100;
+    background-color: #ffd100;
     padding: 4px 8px;
     border-radius: 9px;
+  }
+  .mainTitle {
+    padding: 0px 30px;
+    font-size: 23px;
+    line-height: 1.2; /* Adjust line height as needed */
+  }
+
+  .mainItalic {
+    display: block;
+    width: 100%;
+  }
+  .subTitle {
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .downloadOptions {
+    height: 40px;
+  }
+
+  .groupedPhones {
+    margin-right: 15px;
+    width: 178%;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 500px) {
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .freeText {
+    margin-top: 20px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2d3246;
+  }
+
+  .yellowFree {
+    font-weight: 700;
+    background-color: #ffd100;
+    padding: 4px 8px;
+    border-radius: 9px;
+  }
+  .mainTitle {
+    padding: 0px 30px;
+    font-size: 32px;
+    line-height: 1.2; /* Adjust line height as needed */
+  }
+
+  .mainItalic {
+    display: block;
+  }
+  .subTitle {
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .downloadOptions {
+    height: 40px;
+  }
+
+  .groupedPhones {
+    width: 150%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 650px) {
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .freeText {
+    margin-top: 20px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2d3246;
+  }
+
+  .yellowFree {
+    font-weight: 700;
+    background-color: #ffd100;
+    padding: 4px 8px;
+    border-radius: 9px;
+  }
+  .mainTitle {
+    padding: 0px 30px;
+    font-size: 42px;
+    line-height: 1.2; /* Adjust line height as needed */
+  }
+
+  .mainItalic {
+    display: block;
+  }
+  .subTitle {
+    font-size: 14px;
+    line-height: 20px;
+    width: 90%;
+    padding: 0px 20px;
+  }
+  .downloadOptions {
+    height: 40px;
+  }
+
+  .groupedPhones {
+    width: 130%;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 800px) {
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .freeText {
+    margin-top: 20px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2d3246;
+  }
+
+  .yellowFree {
+    font-weight: 700;
+    background-color: #ffd100;
+    padding: 4px 8px;
+    border-radius: 9px;
+  }
+  .mainTitle {
+    padding: 0px 30px;
+    font-size: 48px;
+    line-height: 1.2; /* Adjust line height as needed */
+  }
+
+  .mainItalic {
+    display: block;
+  }
+  .subTitle {
+    font-size: 18px;
+    line-height: 20px;
+    width: 90%;
+    padding: 0px 40px;
+  }
+  .downloadOptions {
+    height: 40px;
+  }
+
+  .groupedPhones {
+    width: 130%;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .freeText {
+    margin-top: 20px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2d3246;
+  }
+
+  .yellowFree {
+    font-weight: 700;
+    background-color: #ffd100;
+    padding: 4px 8px;
+    border-radius: 9px;
+  }
+  .mainTitle {
+    padding: 0px 30px;
+    font-size: 65px;
+    line-height: 1.2; /* Adjust line height as needed */
+  }
+
+  .mainItalic {
+    display: block;
+  }
+  .subTitle {
+    font-size: 18px;
+    line-height: 20px;
+    width: 90%;
+    padding: 0px 70px;
+  }
+  .downloadOptions {
+    height: 50px;
+  }
+
+  .groupedPhones {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .freeText {
+    margin-top: 20px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2d3246;
+  }
+
+  .yellowFree {
+    font-weight: 700;
+    background-color: #ffd100;
+    padding: 4px 8px;
+    border-radius: 9px;
+  }
+  .mainTitle {
+    padding: 0;
+    font-size: 58px;
+  }
+
+  .subTitle {
+    font-size: 18px;
+    line-height: 20px;
+    width: 85%;
+    padding: 0px 70px;
+  }
+  .downloadOptions {
+    height: 55px;
+  }
+
+  .groupedPhones {
+    width: 90%;
+  }
+}
+
+/* Slides Animations */
+
+.mainTitle {
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.movingText ul {
+  margin-top: 0;
+  height: 68px;
+  text-align: left;
+  list-style: none;
+  overflow: hidden;
+}
+
+.movingText ul li {
+  animation: spin_words 6s infinite;
+  animation-delay: 1s;
 }
 
 .mainTitle {
-    margin-top: 25px;
-    font-family: 'NantesLight', sans-serif;
-    font-size: 62px;
-    display: flex;
-    color: #2D3246;
+  text-wrap: nowrap;
 }
 
-.mainItalic {
-    font-family: 'NantesLightItalic', sans-serif;    
+@media (max-width: 670px) {
+  .movingText ul {
+    height: 50px;
+  }
 }
 
-
-
-
-
-.subTitle{
-    font-family: "Lota Grotesque",sans-serif;
-    color: #4B526E;
-    margin-top: 20px;
-    font-size: 18px;
-    padding: 0px 375px;
+@media (max-width: 500px) {
+  .movingText ul {
+    height: 38px;
+  }
 }
 
-.downloadOptions{
-    margin-top: 25px;
-    height: 45px;
-    
+@media (max-width: 376px) {
+  .movingText ul {
+    height: 30px;
+  }
 }
 
-.groupedPhones{
-    margin-top: 10px;
-    width: 100%;
+/* @keyframes spin_words {
+  10% {
+    transform: translateY(-112%);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  35% {
+    transform: translateY(-212%);
+  }
+  50% {
+    transform: translateY(-200%);
+  }
+  60% {
+    transform: translateY(-312%);
+  }
+  75% {
+    transform: translateY(-300%);
+  }
+  85% {
+    transform: translateY(-412%);
+  }
+  100% {
+    transform: translateY(-400%);
+  }
+} */
+
+@keyframes spin_words {
+  0%,
+  20% {
+    transform: translateY(0%);
+  }
+  25%,
+  45% {
+    transform: translateY(-100%);
+  }
+  50%,
+  70% {
+    transform: translateY(-200%);
+  }
+  75%,
+  95%,
+  100% {
+    transform: translateY(-300%);
+  }
 }
-.phoneGroup{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
-    overflow: hidden;
-}
-
-@media screen and (max-width: 379px) {
-
-    .mainSection {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .logo {
-        width: 80px;
-        height: 80px;
-    }
-    
-    .freeText {
-        margin-top: 20px;
-        font-family: "Sofia Sans", sans-serif;
-        font-weight: 300;
-        font-size: 20px;
-        color: #2D3246;
-    }
-    
-    .yellowFree {
-        font-weight: 700;
-        background-color: #FFD100;
-        padding: 4px 8px;
-        border-radius: 9px;
-    }
-    .mainTitle {
-        padding: 0px 30px;
-        font-size: 25px;
-        line-height: 1.2; /* Adjust line height as needed */
-    }
-    
-    .mainItalic {
-        display: block;
-        width: 100%;
-    }
-    .subTitle {
-        font-size: 14px;
-        line-height: 20px;
-        width: 100%;
-        padding: 0px 10px;
-      }
-    .downloadOptions{
-        padding: 1px 20px;
-        height: 40px;
-    }
-    
-    .groupedPhones{
-        margin-right: 15px;
-        width: 178%;
-    }  
-}
-
-@media (min-width: 380px) and (max-width: 500px){
-    
-    .mainSection {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .logo {
-        width: 80px;
-        height: 80px;
-    }
-    
-    .freeText {
-        margin-top: 20px;
-        font-family: "Sofia Sans", sans-serif;
-        font-weight: 300;
-        font-size: 20px;
-        color: #2D3246;
-    }
-    
-    .yellowFree {
-        font-weight: 700;
-        background-color: #FFD100;
-        padding: 4px 8px;
-        border-radius: 9px;
-    }
-    .mainTitle {
-        padding: 0px 30px;
-        font-size: 32px;
-        line-height: 1.2; /* Adjust line height as needed */
-    }
-    
-    .mainItalic {
-        display: block;
-    }
-    .subTitle {
-        font-size: 14px;
-        line-height: 20px;
-        width: 100%;
-        padding: 0px 10px;
-      }
-    .downloadOptions{
-        padding: 1px 20px;
-
-        height: 40px;
-    }
-    
-    .groupedPhones{
-        width: 150%;
-    }  
-}
-
-.alig{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media (min-width: 501px) and (max-width: 650px){
-    
-    .mainSection {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .logo {
-        width: 80px;
-        height: 80px;
-    }
-    
-    .freeText {
-        margin-top: 20px;
-        font-family: "Sofia Sans", sans-serif;
-        font-weight: 300;
-        font-size: 20px;
-        color: #2D3246;
-    }
-    
-    .yellowFree {
-        font-weight: 700;
-        background-color: #FFD100;
-        padding: 4px 8px;
-        border-radius: 9px;
-    }
-    .mainTitle {
-        padding: 0px 30px;
-        display: flex;
-        font-size: 42px;
-        line-height: 1.2; /* Adjust line height as needed */
-    }
-    
-    .mainItalic {
-        display: block;
-    }
-    .subTitle {
-        font-size: 14px;
-        line-height: 20px;
-        width: 90%;
-        padding: 0px 20px;
-      }
-    .downloadOptions{
-        height: 40px;
-    }
-    
-    .groupedPhones{
-        width: 130%;
-    }  
-}
-
-@media (min-width: 651px) and (max-width: 800px){
-    
-    .mainSection {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .logo {
-        width: 80px;
-        height: 80px;
-    }
-    
-    .freeText {
-        margin-top: 20px;
-        font-family: "Sofia Sans", sans-serif;
-        font-weight: 300;
-        font-size: 20px;
-        color: #2D3246;
-    }
-    
-    .yellowFree {
-        font-weight: 700;
-        background-color: #FFD100;
-        padding: 4px 8px;
-        border-radius: 9px;
-    }
-    .mainTitle {
-        padding: 0px 30px;
-        font-size: 48px;
-        line-height: 1.2; /* Adjust line height as needed */
-    }
-    
-    .mainItalic {
-        display: block;
-    }
-    .subTitle {
-        font-size: 18px;
-        line-height: 20px;
-        width: 90%;
-        padding: 0px 40px;
-      }
-    .downloadOptions{
-        height: 40px;
-    }
-    
-    .groupedPhones{
-        width: 130%;
-    }  
-}
-
-
-
-@media (min-width: 801px) and (max-width: 1000px){
-    
-    .mainSection {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .logo {
-        width: 80px;
-        height: 80px;
-    }
-    
-    .freeText {
-        margin-top: 20px;
-        font-family: "Sofia Sans", sans-serif;
-        font-weight: 300;
-        font-size: 20px;
-        color: #2D3246;
-    }
-    
-    .yellowFree {
-        font-weight: 700;
-        background-color: #FFD100;
-        padding: 4px 8px;
-        border-radius: 9px;
-    }
-    .mainTitle {
-        padding: 0px 30px;
-        font-size: 65px;
-        line-height: 1.2; /* Adjust line height as needed */
-    }
-    
-    .mainItalic {
-        display: block;
-    }
-    .subTitle {
-        font-size: 18px;
-        line-height: 20px;
-        width: 90%;
-        padding: 0px 70px;
-      }
-    .downloadOptions{
-        height: 50px;
-    }
-    
-    .groupedPhones{
-        width: 100%;
-    }  
-}
-
-
-
-
-@media (min-width: 1001px) and (max-width: 1200px){
-    
-    .mainSection {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .logo {
-        width: 80px;
-        height: 80px;
-    }
-    
-    .freeText {
-        margin-top: 20px;
-        font-family: "Sofia Sans", sans-serif;
-        font-weight: 300;
-        font-size: 20px;
-        color: #2D3246;
-    }
-    
-    .yellowFree {
-        font-weight: 700;
-        background-color: #FFD100;
-        padding: 4px 8px;
-        border-radius: 9px;
-    }
-    .mainTitle {
-        padding: 0;
-        font-size: 58px;
-    }
-    
-    .subTitle {
-        font-size: 18px;
-        line-height: 20px;
-        width: 85%;
-        padding: 0px 70px;
-      }
-    .downloadOptions{
-        height: 55px;
-    }
-    
-    .groupedPhones{
-        width: 90%;
-    }  
-}
-
-
