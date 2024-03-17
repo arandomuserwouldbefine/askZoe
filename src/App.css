@@ -118,7 +118,7 @@ html {
   }
   .mainTitle {
     padding: 0px 30px;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 1.2; /* Adjust line height as needed */
   }
 
@@ -435,11 +435,10 @@ html {
 }
 
 @media (max-width: 376px) {
-    .movingText ul {
-      height: 30px;
-    }
+  .movingText ul {
+    height: 30px;
   }
-  
+}
 
 /* @keyframes spin_words {
   10% {
