@@ -499,9 +499,9 @@ html {
   }
   .downloadOptions{
     height: 20%;
-    
+    margin-right: 40px;
 
-    width: 100%;
+    /* width: 100%; */
   }
 }
 
