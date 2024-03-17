@@ -481,8 +481,12 @@ html {
     height: 30px;
   }
 }
-
-@media (min-width: 1201px) and (max-width: 1400px){
+@media (min-width: 500px) and (max-width: 530px){
+  .mainTitle{
+    font-size: 30px;
+  }
+}
+@media (min-width: 1201px){
   .mainTitle{
     font-size: 70px;
   }
