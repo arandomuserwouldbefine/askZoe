@@ -57,8 +57,14 @@ function App() {
             really healthy for you. All based on world-leading nutrition
             science.
           </p>
-          
-          <img src="/Frame.png" className="downloadOptions" alt="Frame" />
+          <div className="downloadables">
+            <a href="https://play.google.com/store/apps/details?id=com.joinzoe.askzoe">
+              <img src="/playstore.png" className="downloadOptions" alt="Frame" />
+            </a>
+            <a href="https://apps.apple.com/us/app/askzoe-food-scanner/id6470290129">
+              <img src="/appstore.png" className="downloadOptions" alt="Frame" />
+            </a>
+          </div>
           <div className="phoneGroup">
             <img src="/Group.png" className="groupedPhones" alt="Group" />
           </div>

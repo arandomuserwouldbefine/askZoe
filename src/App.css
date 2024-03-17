@@ -72,8 +72,10 @@ html {
 }
 
 .downloadOptions {
-  margin-top: 25px;
-  height: 45px;
+  margin-top: 30px;
+  margin-right: 20px;
+  height: 55px;
+
 }
 
 .groupedPhones {
