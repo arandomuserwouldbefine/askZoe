@@ -38,7 +38,7 @@ function App() {
         <img src="/Logo.png" className="logo" />
         <h6 className="freeText">
           a <span className="yellowFree">FREE</span> experience from{" "}
-          <img src="/zoe.svg" alt="Zoe logo" />
+          <img src="/zoe.svg" className="zoeLogo" alt="Zoe logo" />
         </h6>
         <div className="mainTitle">
           Scan to&nbsp;
