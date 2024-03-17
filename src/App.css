@@ -37,14 +37,6 @@ html{
     width: 80px;
     height: 80px;
 }
-
-.animatedStuff{
-
-
-    /* position: relative; */
-
-}
-
 .freeText {
     margin-top: 20px;
     font-family: "Sofia Sans", sans-serif;
@@ -64,13 +56,17 @@ html{
     margin-top: 25px;
     font-family: 'NantesLight', sans-serif;
     font-size: 62px;
+    display: flex;
     color: #2D3246;
 }
 
 .mainItalic {
-    font-family: 'NantesLightItalic', sans-serif;
-
+    font-family: 'NantesLightItalic', sans-serif;    
 }
+
+
+
+
 
 .subTitle{
     font-family: "Lota Grotesque",sans-serif;
@@ -134,6 +130,7 @@ html{
     
     .mainItalic {
         display: block;
+        width: 100%;
     }
     .subTitle {
         font-size: 14px;
