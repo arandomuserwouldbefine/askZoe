@@ -57,7 +57,8 @@ function App() {
             really healthy for you. All based on world-leading nutrition
             science.
           </p>
-          <img src="/Frame.png" className="downloadOptions" alt="Frame" />
+          
+          
           <div className="phoneGroup">
             <img src="/Group.png" className="groupedPhones" alt="Group" />
           </div>

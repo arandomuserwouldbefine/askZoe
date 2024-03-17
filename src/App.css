@@ -407,7 +407,7 @@ html {
 
 .movingText ul {
   margin-top: 0;
-  height: 68px;
+  height: 90px;
   text-align: left;
   list-style: none;
   overflow: hidden;
@@ -416,6 +416,7 @@ html {
 .movingText ul li {
   animation: spin_words 6s infinite;
   animation-delay: 1s;
+  height: 90px;
 }
 
 .mainTitle {
