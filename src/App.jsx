@@ -1,45 +1,37 @@
 import './App.css'
 import { AnimatePresence, motion } from "framer-motion";
 import { useState, useEffect } from 'react';
-import { useSpring, animated } from '@react-spring/web'
 
 function App() {
   const texts = [" discover healthy foods", " expose unhealthy foods", " build better habits", " transform your health"]
   const [index, setIndex] = useState(0);
-  const variants = {
-    enter: direction => {
-      return {
-        y: 50,
-        zIndex: -99
-      };
-    },
-    center: direction => {
-      return {
 
-        zIndex: -99,
-        y: 0,
-      }
-    },
-    exit: direction => {
-      return {
-        y: -300,
-        zIndex: -99,
-      };
-    }
-  };
-
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prevIndex) => (prevIndex + 1) % texts.length);
+    }, 5000); // Change text every 5 seconds
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <>
       <div className='mainSection'>
-        <img src='/Logo.png' className='logo' />
+        <img src='/Logo.png' className='logo' alt="Logo" />
         <h6 className='freeText'>a <span className='yellowFree'>FREE</span> experience from <img src='/zoe.svg' alt="Zoe logo" /></h6>
-        <div className='mainTitle'>Scan to&nbsp;
-          <div className='movingText'>
-            <span className='mainItalic'> discover healthy foods</span><br></br>
-            <span className='mainItalic'> expose unhealthy foods</span><br></br>
-            <span className='mainItalic'> build better habits</span><br></br>
-            <span className='mainItalic'> transform your health</span><br></br>
+        <div className='alig'>
+          <div className='mainTitle'>Scan to</div><div className='mainTitle'>
+            <AnimatePresence >
+              <motion.div
+                className='movingText'
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: -37 }}
+                exit={{ opacity: 0, y: -100 }}
+                style={{ position: "absolute"}}
+              >
+                <span className='mainItalic'>{texts[index]}</span><br />
+              </motion.div>
+            </AnimatePresence>
           </div>
         </div>
         <div>
@@ -54,4 +46,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
