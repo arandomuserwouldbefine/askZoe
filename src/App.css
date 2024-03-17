@@ -416,7 +416,7 @@ html {
 }
 
 .movingText ul li {
-  animation: spin_words 6s infinite;
+  animation: spin_words 15s infinite;
   animation-delay: 1s;
   height: 90px;
 }
